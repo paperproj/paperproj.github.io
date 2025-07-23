@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { BASE_URL } from './utils/constants';
+import { BASE_URL } from '../utils/constants';
 
 // Main hook that manages the paper queue, history, and interactions
 export default function usePaperQueue({ setLocked, LOCK_DURATION_MS, selectedField }) {
